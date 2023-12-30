@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>%d{"yyyy-MM-dd HH:mm:ss,SSS"} [%thread] %-5level [%c{0}] [RRN="%X{rrn}] - [STAN=%X{stan}"]  - %msg %n
+            </Pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>TRACE</level>
+        </filter>
+    </appender>
+
+    <appender name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>logs/application.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- keep 90 days' worth of history -->
+            <maxHistory>90</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <Pattern>%d{"yyyy-MM-dd HH:mm:ss,SSS"} [%thread] %-5level [%c{0}] [RRN="%X{rrn}] - [STAN=%X{stan}"] - %msg %n</Pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>TRACE</level>
+        </filter>
+    </appender>
+
+    <appender name="asyncAppender" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="fileAppender" />
+        
+    </appender>
+    <root>
+        <level value="INFO" />
+        <appender-ref ref="consoleAppender" />
+        <appender-ref ref="asyncAppender" />
+    </root>
+
+	<logger name="com.zaxxer.hikari" level="DEBUG" />
+	<logger name="org.springframework" level="INFO" />
+	<logger name="org.hibernate" level="INFO" />
+	<logger name="org.apache" level="INFO" />
+	<logger name="javax.management" level="INFO" />
+	<logger name="org.jboss" level="INFO" />
+	<logger name="io.netty" level="INFO" />
+	<logger name="com.solab" level="INFO" />
+    
+</configuration>

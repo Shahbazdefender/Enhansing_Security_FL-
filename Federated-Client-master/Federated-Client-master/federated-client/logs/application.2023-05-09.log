@@ -1,0 +1,274 @@
+2023-05-09 22:08:36,508 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Starting FederatedClientApplication on Hasnain-Rabbani with PID 25120 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client) 
+2023-05-09 22:08:36,511 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - The following profiles are active: client1 
+2023-05-09 22:08:38,666 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-09 22:08:38,900 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-09 22:08:38,903 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper 
+2023-05-09 22:08:38,904 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 22:08:38,904 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 22:08:38,904 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 22:08:38,905 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-09 22:08:38,905 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 22:08:38,905 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application-client1.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 22:08:39,218 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-09 22:08:39,877 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Starting FederatedClientApplication on Hasnain-Rabbani with PID 7920 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client) 
+2023-05-09 22:08:39,884 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - The following profiles are active: client2 
+2023-05-09 22:08:41,910 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9091 (http) 
+2023-05-09 22:08:41,934 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9091"] 
+2023-05-09 22:08:41,938 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-09 22:08:41,939 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-09 22:08:42,230 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-09 22:08:42,230 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 5653 ms 
+2023-05-09 22:08:42,245 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-09 22:08:42,254 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-09 22:08:43,252 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Starting FederatedClientApplication on Hasnain-Rabbani with PID 16044 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client) 
+2023-05-09 22:08:43,264 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - The following profiles are active: client3 
+2023-05-09 22:08:43,652 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-09 22:08:44,017 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-09 22:08:44,021 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper 
+2023-05-09 22:08:44,022 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 22:08:44,022 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 22:08:44,030 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 22:08:44,031 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-09 22:08:44,031 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 22:08:44,031 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application-client2.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 22:08:44,270 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-09 22:08:44,270 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-09 22:08:44,270 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-09 22:08:44,271 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-09 22:08:44,271 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-09 22:08:44,271 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-09 22:08:44,499 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-09 22:08:44,591 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-09 22:08:45,040 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e76b097, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cde651b, org.springframework.security.web.header.HeaderWriterFilter@2d64c100, org.springframework.web.filter.CorsFilter@2be95d31, org.springframework.security.web.authentication.logout.LogoutFilter@60d40ff4, com.zeroinfinity.federatedclient.config.JwtRequestFilter@4eed2acf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bb87d36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@503df2d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@338b49d3, org.springframework.security.web.session.SessionManagementFilter@4f94e148, org.springframework.security.web.access.ExceptionTranslationFilter@47d023b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7593ea79] 
+2023-05-09 22:08:45,410 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-09 22:08:46,226 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9091"] 
+2023-05-09 22:08:46,334 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9091 (http) with context path '' 
+2023-05-09 22:08:46,336 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-09 22:08:46,393 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-09 22:08:46,491 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-09 22:08:46,843 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: allModelsUsingGET_1 
+2023-05-09 22:08:46,895 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Started FederatedClientApplication in 11.354 seconds (JVM running for 12.134) 
+2023-05-09 22:08:47,516 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9092 (http) 
+2023-05-09 22:08:47,540 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9092"] 
+2023-05-09 22:08:47,542 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-09 22:08:47,542 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-09 22:08:47,722 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-09 22:08:47,722 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 7362 ms 
+2023-05-09 22:08:47,736 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-09 22:08:47,749 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-09 22:08:47,743 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-09 22:08:48,030 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-09 22:08:48,033 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper 
+2023-05-09 22:08:48,033 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 22:08:48,033 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 22:08:48,034 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 22:08:48,034 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-09 22:08:48,034 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 22:08:48,034 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application-client3.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 22:08:48,380 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-09 22:08:49,376 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-09 22:08:49,377 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-09 22:08:49,377 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-09 22:08:49,377 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-09 22:08:49,377 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-09 22:08:49,377 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-09 22:08:49,434 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-09 22:08:49,584 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e76b097, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cde651b, org.springframework.security.web.header.HeaderWriterFilter@2d64c100, org.springframework.web.filter.CorsFilter@2be95d31, org.springframework.security.web.authentication.logout.LogoutFilter@60d40ff4, com.zeroinfinity.federatedclient.config.JwtRequestFilter@4eed2acf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bb87d36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@503df2d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@338b49d3, org.springframework.security.web.session.SessionManagementFilter@4f94e148, org.springframework.security.web.access.ExceptionTranslationFilter@47d023b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7593ea79] 
+2023-05-09 22:08:49,704 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-09 22:08:49,861 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9093 (http) 
+2023-05-09 22:08:49,882 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9093"] 
+2023-05-09 22:08:49,883 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-09 22:08:49,884 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-09 22:08:49,948 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9092"] 
+2023-05-09 22:08:50,017 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9092 (http) with context path '' 
+2023-05-09 22:08:50,018 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-09 22:08:50,074 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-09 22:08:50,128 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-09 22:08:50,129 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 6634 ms 
+2023-05-09 22:08:50,170 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-09 22:08:50,199 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-09 22:08:50,197 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-09 22:08:50,602 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: allModelsUsingGET_1 
+2023-05-09 22:08:50,674 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Started FederatedClientApplication in 12.154 seconds (JVM running for 13.064) 
+2023-05-09 22:08:51,520 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-09 22:08:51,521 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-09 22:08:51,521 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-09 22:08:51,521 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-09 22:08:51,521 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-09 22:08:51,521 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-09 22:08:51,574 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-09 22:08:51,710 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43982337, org.springframework.security.web.context.SecurityContextPersistenceFilter@27fe9713, org.springframework.security.web.header.HeaderWriterFilter@7d7cac8, org.springframework.web.filter.CorsFilter@5b275811, org.springframework.security.web.authentication.logout.LogoutFilter@4288d98e, com.zeroinfinity.federatedclient.config.JwtRequestFilter@472698d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4397a639, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ae126d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f0ed952, org.springframework.security.web.session.SessionManagementFilter@2aaf152b, org.springframework.security.web.access.ExceptionTranslationFilter@6f76c2cc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52d6d273] 
+2023-05-09 22:08:51,819 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-09 22:08:52,064 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9093"] 
+2023-05-09 22:08:52,103 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9093 (http) with context path '' 
+2023-05-09 22:08:52,105 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-09 22:08:52,143 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-09 22:08:52,183 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-09 22:08:52,364 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: allModelsUsingGET_1 
+2023-05-09 22:08:52,397 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Started FederatedClientApplication in 10.876 seconds (JVM running for 12.512) 
+2023-05-09 22:09:12,643 [http-nio-9092-exec-1] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-09 22:09:12,643 [http-nio-9092-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-09 22:09:12,657 [http-nio-9092-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 14 ms 
+2023-05-09 22:09:13,662 [http-nio-9091-exec-2] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-09 22:09:13,665 [http-nio-9091-exec-2] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-09 22:09:13,685 [http-nio-9091-exec-2] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 20 ms 
+2023-05-09 22:09:15,274 [http-nio-9093-exec-1] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-09 22:09:15,274 [http-nio-9093-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-09 22:09:15,302 [http-nio-9093-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 28 ms 
+2023-05-09 23:00:01,569 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Starting FederatedClientApplication on Hasnain-Rabbani with PID 23656 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client) 
+2023-05-09 23:00:01,573 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - The following profiles are active: client1 
+2023-05-09 23:00:04,383 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-09 23:00:04,640 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-09 23:00:04,646 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper 
+2023-05-09 23:00:04,647 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:00:04,647 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:00:04,648 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 23:00:04,648 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-09 23:00:04,649 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:00:04,649 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application-client1.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 23:00:05,135 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-09 23:00:05,794 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Starting FederatedClientApplication on Hasnain-Rabbani with PID 24964 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client) 
+2023-05-09 23:00:05,803 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - The following profiles are active: client2 
+2023-05-09 23:00:07,587 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9091 (http) 
+2023-05-09 23:00:07,632 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9091"] 
+2023-05-09 23:00:07,635 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-09 23:00:07,638 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-09 23:00:08,117 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-09 23:00:08,122 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 6364 ms 
+2023-05-09 23:00:08,156 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-09 23:00:08,167 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-09 23:00:09,257 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Starting FederatedClientApplication on Hasnain-Rabbani with PID 12344 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client) 
+2023-05-09 23:00:09,265 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - The following profiles are active: client3 
+2023-05-09 23:00:10,313 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-09 23:00:10,530 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-09 23:00:10,531 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-09 23:00:10,532 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-09 23:00:10,674 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-09 23:00:10,680 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper 
+2023-05-09 23:00:10,681 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:00:10,685 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:00:10,686 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 23:00:10,687 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-09 23:00:10,693 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:00:10,693 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application-client2.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 23:00:10,533 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-09 23:00:10,720 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-09 23:00:10,720 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-09 23:00:11,008 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-09 23:00:11,465 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2be95d31, org.springframework.security.web.context.SecurityContextPersistenceFilter@534e58b6, org.springframework.security.web.header.HeaderWriterFilter@69d45cca, org.springframework.web.filter.CorsFilter@338b49d3, org.springframework.security.web.authentication.logout.LogoutFilter@2e5b7fba, com.zeroinfinity.federatedclient.config.JwtRequestFilter@36fc05ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b495d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26fb4d06, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2aa7399c, org.springframework.security.web.session.SessionManagementFilter@7ff8a9dc, org.springframework.security.web.access.ExceptionTranslationFilter@5c83ae01, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3289079a] 
+2023-05-09 23:00:11,765 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-09 23:00:12,022 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-09 23:00:12,635 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9091"] 
+2023-05-09 23:00:12,766 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9091 (http) with context path '' 
+2023-05-09 23:00:12,790 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-09 23:00:12,863 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-09 23:00:12,977 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-09 23:00:13,538 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: allModelsUsingGET_1 
+2023-05-09 23:00:13,600 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Started FederatedClientApplication in 13.193 seconds (JVM running for 14.009) 
+2023-05-09 23:00:14,345 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9092 (http) 
+2023-05-09 23:00:14,369 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9092"] 
+2023-05-09 23:00:14,370 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-09 23:00:14,370 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-09 23:00:14,604 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-09 23:00:14,604 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 8357 ms 
+2023-05-09 23:00:14,606 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-09 23:00:14,621 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-09 23:00:14,627 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-09 23:00:14,911 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-09 23:00:14,916 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper 
+2023-05-09 23:00:14,917 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:00:14,917 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:00:14,917 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 23:00:14,918 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-09 23:00:14,918 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:00:14,918 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application-client3.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 23:00:15,232 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-09 23:00:16,119 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-09 23:00:16,120 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-09 23:00:16,120 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-09 23:00:16,120 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-09 23:00:16,120 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-09 23:00:16,120 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-09 23:00:16,190 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-09 23:00:16,404 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ba02375, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e6d4780, org.springframework.security.web.header.HeaderWriterFilter@6732726, org.springframework.web.filter.CorsFilter@7593ea79, org.springframework.security.web.authentication.logout.LogoutFilter@3b5c665c, com.zeroinfinity.federatedclient.config.JwtRequestFilter@3baf6936, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e73d5eb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bb87d36, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3289079a, org.springframework.security.web.session.SessionManagementFilter@69d45cca, org.springframework.security.web.access.ExceptionTranslationFilter@4c86da0c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@35f3a22c] 
+2023-05-09 23:00:16,526 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-09 23:00:16,812 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9092"] 
+2023-05-09 23:00:16,865 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9092 (http) with context path '' 
+2023-05-09 23:00:16,866 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-09 23:00:16,916 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-09 23:00:16,982 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-09 23:00:17,168 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9093 (http) 
+2023-05-09 23:00:17,189 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9093"] 
+2023-05-09 23:00:17,191 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-09 23:00:17,191 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-09 23:00:17,236 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: allModelsUsingGET_1 
+2023-05-09 23:00:17,292 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Started FederatedClientApplication in 13.329 seconds (JVM running for 14.639) 
+2023-05-09 23:00:17,409 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-09 23:00:17,410 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 7609 ms 
+2023-05-09 23:00:17,421 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-09 23:00:17,429 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-09 23:00:18,305 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-09 23:00:18,306 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-09 23:00:18,306 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-09 23:00:18,306 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-09 23:00:18,306 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-09 23:00:18,306 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-09 23:00:18,356 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-09 23:00:18,483 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f2e1024, org.springframework.security.web.context.SecurityContextPersistenceFilter@7fb48179, org.springframework.security.web.header.HeaderWriterFilter@24a86066, org.springframework.web.filter.CorsFilter@536d97f8, org.springframework.security.web.authentication.logout.LogoutFilter@22a10ac6, com.zeroinfinity.federatedclient.config.JwtRequestFilter@350a94ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c86da0c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47d023b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c50ad4b, org.springframework.security.web.session.SessionManagementFilter@6c101cc1, org.springframework.security.web.access.ExceptionTranslationFilter@4e682398, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bd5849e] 
+2023-05-09 23:00:18,572 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-09 23:00:18,776 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9093"] 
+2023-05-09 23:00:18,818 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9093 (http) with context path '' 
+2023-05-09 23:00:18,819 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-09 23:00:18,860 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-09 23:00:18,908 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-09 23:00:19,101 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: allModelsUsingGET_1 
+2023-05-09 23:00:19,131 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Started FederatedClientApplication in 12.117 seconds (JVM running for 13.695) 
+2023-05-09 23:11:49,717 [http-nio-9091-exec-1] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-09 23:11:49,718 [http-nio-9091-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-09 23:11:49,734 [http-nio-9091-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 16 ms 
+2023-05-09 23:11:51,477 [http-nio-9092-exec-3] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-09 23:11:51,477 [http-nio-9092-exec-3] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-09 23:11:51,496 [http-nio-9092-exec-3] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 19 ms 
+2023-05-09 23:11:53,076 [http-nio-9093-exec-1] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-09 23:11:53,077 [http-nio-9093-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-09 23:11:53,096 [http-nio-9093-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 19 ms 
+2023-05-09 23:15:51,098 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Starting FederatedClientApplication on Hasnain-Rabbani with PID 20792 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-client\federated-client) 
+2023-05-09 23:15:51,102 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - The following profiles are active: client1 
+2023-05-09 23:15:52,747 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-09 23:15:52,864 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-09 23:15:52,866 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper 
+2023-05-09 23:15:52,866 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:15:52,866 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:15:52,867 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 23:15:52,867 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-09 23:15:52,867 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-09 23:15:52,867 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application-client1.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-09 23:15:53,065 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-09 23:15:53,884 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9091 (http) 
+2023-05-09 23:15:53,898 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9091"] 
+2023-05-09 23:15:53,899 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-09 23:15:53,899 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-09 23:15:54,027 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-09 23:15:54,027 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 2799 ms 
+2023-05-09 23:15:54,037 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-09 23:15:54,043 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-09 23:15:54,899 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-09 23:15:54,899 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-09 23:15:54,899 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-09 23:15:54,899 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-09 23:15:54,899 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-09 23:15:54,900 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-09 23:15:54,956 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-09 23:15:55,096 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@338b49d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@3bb87d36, org.springframework.security.web.header.HeaderWriterFilter@2fdf17dc, org.springframework.web.filter.CorsFilter@2aa7399c, org.springframework.security.web.authentication.logout.LogoutFilter@27755487, com.zeroinfinity.federatedclient.config.JwtRequestFilter@642505c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e1dde44, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c269425, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11eed657, org.springframework.security.web.session.SessionManagementFilter@2cde651b, org.springframework.security.web.access.ExceptionTranslationFilter@2d64c100, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32fa809f] 
+2023-05-09 23:15:55,185 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-09 23:15:55,398 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9091"] 
+2023-05-09 23:15:55,437 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9091 (http) with context path '' 
+2023-05-09 23:15:55,438 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-09 23:15:55,474 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-09 23:15:55,517 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-09 23:15:55,724 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: allModelsUsingGET_1 
+2023-05-09 23:15:55,755 [main] INFO  [FederatedClientApplication] [RRN="] - [STAN="] - Started FederatedClientApplication in 5.438 seconds (JVM running for 6.152) 
+2023-05-09 23:16:57,651 [http-nio-9091-exec-1] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-09 23:16:57,651 [http-nio-9091-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-09 23:16:57,666 [http-nio-9091-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 15 ms 
+2023-05-09 23:20:18,838 [http-nio-9091-exec-5] ERROR [RestExceptionHandler] [RRN="] - [STAN="] - Generic Exception Handler envoked 

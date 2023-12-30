@@ -1,0 +1,992 @@
+2023-05-14 01:48:10,151 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Starting FederatedServerApplication on Hasnain-Rabbani with PID 15324 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server) 
+2023-05-14 01:48:10,154 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - No active profile set, falling back to default profiles: default 
+2023-05-14 01:48:11,195 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2023-05-14 01:48:11,271 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Finished Spring Data repository scanning in 67ms. Found 3 JPA repository interfaces. 
+2023-05-14 01:48:11,540 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-14 01:48:11,638 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-14 01:48:11,638 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 01:48:11,638 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 01:48:11,638 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 01:48:11,639 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-14 01:48:11,639 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 01:48:11,639 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 01:48:11,807 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-14 01:48:12,498 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9090 (http) 
+2023-05-14 01:48:12,507 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9090"] 
+2023-05-14 01:48:12,508 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-14 01:48:12,508 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-14 01:48:12,594 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-14 01:48:12,594 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 2358 ms 
+2023-05-14 01:48:12,601 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-14 01:48:12,605 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-14 01:48:12,715 [main] DEBUG [HikariConfig] [RRN="] - [STAN="] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+2023-05-14 01:48:12,791 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-14 01:48:12,839 [task-1] INFO  [LogHelper] [RRN="] - [STAN="] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-05-14 01:48:12,877 [main] WARN  [JpaBaseConfiguration$JpaWebConfiguration] [RRN="] - [STAN="] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-05-14 01:48:12,918 [task-1] INFO  [Version] [RRN="] - [STAN="] - HHH000412: Hibernate ORM core version 5.4.17.Final 
+2023-05-14 01:48:13,112 [task-1] INFO  [Version] [RRN="] - [STAN="] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2023-05-14 01:48:13,268 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - HikariPool-1 - configuration: 
+2023-05-14 01:48:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - allowPoolSuspension.............false 
+2023-05-14 01:48:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - autoCommit......................true 
+2023-05-14 01:48:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - catalog.........................none 
+2023-05-14 01:48:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionInitSql...............none 
+2023-05-14 01:48:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTestQuery.............none 
+2023-05-14 01:48:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTimeout...............30000 
+2023-05-14 01:48:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSource......................none 
+2023-05-14 01:48:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceClassName.............none 
+2023-05-14 01:48:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceJNDI..................none 
+2023-05-14 01:48:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceProperties............{password=<masked>} 
+2023-05-14 01:48:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - driverClassName................."com.mysql.cj.jdbc.Driver" 
+2023-05-14 01:48:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - exceptionOverrideClassName......none 
+2023-05-14 01:48:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckProperties...........{} 
+2023-05-14 01:48:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckRegistry.............none 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - idleTimeout.....................600000 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - initializationFailTimeout.......1 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - isolateInternalQueries..........false 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - jdbcUrl.........................jdbc:mysql://localhost:3306/test 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - leakDetectionThreshold..........0 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maxLifetime.....................1800000 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maximumPoolSize.................10 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricRegistry..................none 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricsTrackerFactory...........none 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - minimumIdle.....................10 
+2023-05-14 01:48:13,274 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - password........................<masked> 
+2023-05-14 01:48:13,275 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - poolName........................"HikariPool-1" 
+2023-05-14 01:48:13,275 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - readOnly........................false 
+2023-05-14 01:48:13,275 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - registerMbeans..................false 
+2023-05-14 01:48:13,275 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - scheduledExecutor...............none 
+2023-05-14 01:48:13,275 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - schema..........................none 
+2023-05-14 01:48:13,275 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - threadFactory...................internal 
+2023-05-14 01:48:13,275 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - transactionIsolation............default 
+2023-05-14 01:48:13,275 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - username........................"root" 
+2023-05-14 01:48:13,275 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - validationTimeout...............5000 
+2023-05-14 01:48:13,275 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Starting... 
+2023-05-14 01:48:13,435 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-14 01:48:13,435 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-14 01:48:13,435 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-14 01:48:13,436 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-14 01:48:13,436 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-14 01:48:13,436 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-14 01:48:13,501 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-14 01:48:13,515 [task-1] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b3e126 
+2023-05-14 01:48:13,516 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Start completed. 
+2023-05-14 01:48:13,546 [task-1] INFO  [Dialect] [RRN="] - [STAN="] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2023-05-14 01:48:13,612 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e87ef9e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e15f4d4, org.springframework.security.web.header.HeaderWriterFilter@5a515e5d, org.springframework.web.filter.CorsFilter@e3b0369, org.springframework.security.web.authentication.logout.LogoutFilter@2001e48c, com.zeroinfinity.federatedserver.config.JwtRequestFilter@f88bfbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4eaf7902, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43ecfeb5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45843650, org.springframework.security.web.session.SessionManagementFilter@1a01d7f0, org.springframework.security.web.access.ExceptionTranslationFilter@60f21960, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64bebd55] 
+2023-05-14 01:48:13,617 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0) 
+2023-05-14 01:48:13,624 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b636bbe 
+2023-05-14 01:48:13,628 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a5e6185 
+2023-05-14 01:48:13,631 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b3e6aa6 
+2023-05-14 01:48:13,634 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a719eca 
+2023-05-14 01:48:13,639 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ff8ffd0 
+2023-05-14 01:48:13,642 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e3f2002 
+2023-05-14 01:48:13,646 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44202043 
+2023-05-14 01:48:13,649 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e9c8632 
+2023-05-14 01:48:13,652 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4dc0ba01 
+2023-05-14 01:48:13,652 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 01:48:13,871 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9090"] 
+2023-05-14 01:48:13,897 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9090 (http) with context path '' 
+2023-05-14 01:48:13,898 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-14 01:48:13,927 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-14 01:48:13,963 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-14 01:48:14,303 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Triggering deferred initialization of Spring Data repositories… 
+2023-05-14 01:48:14,815 [task-1] INFO  [JtaPlatformInitiator] [RRN="] - [STAN="] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-05-14 01:48:14,825 [task-1] INFO  [LocalContainerEntityManagerFactoryBean] [RRN="] - [STAN="] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-05-14 01:48:15,262 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Spring Data repositories initialized! 
+2023-05-14 01:48:15,273 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Started FederatedServerApplication in 5.631 seconds (JVM running for 6.015) 
+2023-05-14 01:56:03,460 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Starting FederatedServerApplication on Hasnain-Rabbani with PID 25304 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server) 
+2023-05-14 01:56:03,462 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - No active profile set, falling back to default profiles: default 
+2023-05-14 01:56:04,910 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2023-05-14 01:56:05,166 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Finished Spring Data repository scanning in 238ms. Found 3 JPA repository interfaces. 
+2023-05-14 01:56:05,590 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-14 01:56:05,732 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-14 01:56:05,732 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 01:56:05,732 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 01:56:05,733 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 01:56:05,733 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-14 01:56:05,733 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 01:56:05,733 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 01:56:06,061 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-14 01:56:07,023 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9090 (http) 
+2023-05-14 01:56:07,036 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9090"] 
+2023-05-14 01:56:07,037 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-14 01:56:07,038 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-14 01:56:07,186 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-14 01:56:07,187 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 3654 ms 
+2023-05-14 01:56:07,202 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-14 01:56:07,210 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-14 01:56:07,371 [main] DEBUG [HikariConfig] [RRN="] - [STAN="] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+2023-05-14 01:56:07,548 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-14 01:56:07,638 [task-1] INFO  [LogHelper] [RRN="] - [STAN="] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-05-14 01:56:07,745 [main] WARN  [JpaBaseConfiguration$JpaWebConfiguration] [RRN="] - [STAN="] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-05-14 01:56:07,760 [task-1] INFO  [Version] [RRN="] - [STAN="] - HHH000412: Hibernate ORM core version 5.4.17.Final 
+2023-05-14 01:56:08,080 [task-1] INFO  [Version] [RRN="] - [STAN="] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2023-05-14 01:56:08,430 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - HikariPool-1 - configuration: 
+2023-05-14 01:56:08,466 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - allowPoolSuspension.............false 
+2023-05-14 01:56:08,467 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - autoCommit......................true 
+2023-05-14 01:56:08,467 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - catalog.........................none 
+2023-05-14 01:56:08,467 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionInitSql...............none 
+2023-05-14 01:56:08,467 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTestQuery.............none 
+2023-05-14 01:56:08,467 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTimeout...............30000 
+2023-05-14 01:56:08,467 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSource......................none 
+2023-05-14 01:56:08,467 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceClassName.............none 
+2023-05-14 01:56:08,467 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceJNDI..................none 
+2023-05-14 01:56:08,468 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceProperties............{password=<masked>} 
+2023-05-14 01:56:08,468 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - driverClassName................."com.mysql.cj.jdbc.Driver" 
+2023-05-14 01:56:08,468 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - exceptionOverrideClassName......none 
+2023-05-14 01:56:08,468 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckProperties...........{} 
+2023-05-14 01:56:08,468 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckRegistry.............none 
+2023-05-14 01:56:08,468 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - idleTimeout.....................600000 
+2023-05-14 01:56:08,468 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - initializationFailTimeout.......1 
+2023-05-14 01:56:08,468 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - isolateInternalQueries..........false 
+2023-05-14 01:56:08,468 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - jdbcUrl.........................jdbc:mysql://localhost:3306/test 
+2023-05-14 01:56:08,468 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - leakDetectionThreshold..........0 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maxLifetime.....................1800000 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maximumPoolSize.................10 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricRegistry..................none 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricsTrackerFactory...........none 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - minimumIdle.....................10 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - password........................<masked> 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - poolName........................"HikariPool-1" 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - readOnly........................false 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - registerMbeans..................false 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - scheduledExecutor...............none 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - schema..........................none 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - threadFactory...................internal 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - transactionIsolation............default 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - username........................"root" 
+2023-05-14 01:56:08,469 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - validationTimeout...............5000 
+2023-05-14 01:56:08,469 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Starting... 
+2023-05-14 01:56:08,878 [task-1] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55f3dc24 
+2023-05-14 01:56:08,883 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Start completed. 
+2023-05-14 01:56:08,933 [task-1] INFO  [Dialect] [RRN="] - [STAN="] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2023-05-14 01:56:09,033 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0) 
+2023-05-14 01:56:09,090 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76ec5055 
+2023-05-14 01:56:09,094 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37d15a6e 
+2023-05-14 01:56:09,100 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6accbf2 
+2023-05-14 01:56:09,104 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57fea521 
+2023-05-14 01:56:09,110 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1763c0fb 
+2023-05-14 01:56:09,113 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53b01e76 
+2023-05-14 01:56:09,117 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7425d3cc 
+2023-05-14 01:56:09,121 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aa00b5b 
+2023-05-14 01:56:09,124 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f9be881 
+2023-05-14 01:56:09,125 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 01:56:09,158 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-14 01:56:09,158 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-14 01:56:09,159 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-14 01:56:09,159 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-14 01:56:09,159 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-14 01:56:09,159 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-14 01:56:09,220 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-14 01:56:09,400 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4391a2d8, org.springframework.security.web.context.SecurityContextPersistenceFilter@5974b7e8, org.springframework.security.web.header.HeaderWriterFilter@733c464f, org.springframework.web.filter.CorsFilter@47b269c4, org.springframework.security.web.authentication.logout.LogoutFilter@746c411c, com.zeroinfinity.federatedserver.config.JwtRequestFilter@52ff99cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66bf40e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a6c7f42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71e7adbb, org.springframework.security.web.session.SessionManagementFilter@183ade54, org.springframework.security.web.access.ExceptionTranslationFilter@3f6f3cc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78307a56] 
+2023-05-14 01:56:09,663 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9090"] 
+2023-05-14 01:56:09,689 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9090 (http) with context path '' 
+2023-05-14 01:56:09,690 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-14 01:56:09,717 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-14 01:56:09,755 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-14 01:56:10,282 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: syncModelUsingGET_1 
+2023-05-14 01:56:10,302 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Triggering deferred initialization of Spring Data repositories… 
+2023-05-14 01:56:10,758 [task-1] INFO  [JtaPlatformInitiator] [RRN="] - [STAN="] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-05-14 01:56:10,773 [task-1] INFO  [LocalContainerEntityManagerFactoryBean] [RRN="] - [STAN="] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-05-14 01:56:12,556 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Spring Data repositories initialized! 
+2023-05-14 01:56:12,576 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Started FederatedServerApplication in 9.605 seconds (JVM running for 9.958) 
+2023-05-14 01:56:39,048 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 01:56:39,048 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 01:57:09,053 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 01:57:09,053 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 01:57:39,063 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 01:57:39,063 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 01:58:09,070 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 01:58:09,070 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 01:58:39,079 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 01:58:39,080 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 01:59:09,084 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 01:59:09,085 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 01:59:36,307 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Starting FederatedServerApplication on Hasnain-Rabbani with PID 28996 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server) 
+2023-05-14 01:59:36,310 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - No active profile set, falling back to default profiles: default 
+2023-05-14 01:59:37,560 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2023-05-14 01:59:37,651 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Finished Spring Data repository scanning in 76ms. Found 3 JPA repository interfaces. 
+2023-05-14 01:59:37,911 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-14 01:59:38,004 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-14 01:59:38,004 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 01:59:38,005 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 01:59:38,005 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 01:59:38,005 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-14 01:59:38,005 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 01:59:38,005 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 01:59:38,186 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-14 01:59:38,872 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9090 (http) 
+2023-05-14 01:59:38,881 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9090"] 
+2023-05-14 01:59:38,882 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-14 01:59:38,882 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-14 01:59:38,974 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-14 01:59:38,975 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 2574 ms 
+2023-05-14 01:59:38,983 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-14 01:59:38,988 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-14 01:59:39,111 [main] DEBUG [HikariConfig] [RRN="] - [STAN="] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+2023-05-14 01:59:39,199 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-14 01:59:39,256 [task-1] INFO  [LogHelper] [RRN="] - [STAN="] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-05-14 01:59:39,293 [main] WARN  [JpaBaseConfiguration$JpaWebConfiguration] [RRN="] - [STAN="] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-05-14 01:59:39,329 [task-1] INFO  [Version] [RRN="] - [STAN="] - HHH000412: Hibernate ORM core version 5.4.17.Final 
+2023-05-14 01:59:39,565 [task-1] INFO  [Version] [RRN="] - [STAN="] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2023-05-14 01:59:39,778 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - HikariPool-1 - configuration: 
+2023-05-14 01:59:39,781 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - allowPoolSuspension.............false 
+2023-05-14 01:59:39,781 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - autoCommit......................true 
+2023-05-14 01:59:39,781 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - catalog.........................none 
+2023-05-14 01:59:39,781 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionInitSql...............none 
+2023-05-14 01:59:39,781 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTestQuery.............none 
+2023-05-14 01:59:39,782 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTimeout...............30000 
+2023-05-14 01:59:39,782 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSource......................none 
+2023-05-14 01:59:39,782 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceClassName.............none 
+2023-05-14 01:59:39,782 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceJNDI..................none 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceProperties............{password=<masked>} 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - driverClassName................."com.mysql.cj.jdbc.Driver" 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - exceptionOverrideClassName......none 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckProperties...........{} 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckRegistry.............none 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - idleTimeout.....................600000 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - initializationFailTimeout.......1 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - isolateInternalQueries..........false 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - jdbcUrl.........................jdbc:mysql://localhost:3306/test 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - leakDetectionThreshold..........0 
+2023-05-14 01:59:39,783 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maxLifetime.....................1800000 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maximumPoolSize.................10 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricRegistry..................none 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricsTrackerFactory...........none 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - minimumIdle.....................10 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - password........................<masked> 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - poolName........................"HikariPool-1" 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - readOnly........................false 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - registerMbeans..................false 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - scheduledExecutor...............none 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - schema..........................none 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - threadFactory...................internal 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - transactionIsolation............default 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - username........................"root" 
+2023-05-14 01:59:39,784 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - validationTimeout...............5000 
+2023-05-14 01:59:39,785 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Starting... 
+2023-05-14 01:59:39,959 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-14 01:59:39,959 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-14 01:59:39,959 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-14 01:59:39,959 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-14 01:59:39,959 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-14 01:59:39,959 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-14 01:59:40,014 [task-1] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@295bfcdc 
+2023-05-14 01:59:40,016 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Start completed. 
+2023-05-14 01:59:40,023 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-14 01:59:40,044 [task-1] INFO  [Dialect] [RRN="] - [STAN="] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2023-05-14 01:59:40,122 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+2023-05-14 01:59:40,127 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44f4b8d2 
+2023-05-14 01:59:40,130 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c9b2e9 
+2023-05-14 01:59:40,134 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3486119b 
+2023-05-14 01:59:40,137 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65e64da6 
+2023-05-14 01:59:40,141 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cce93d2 
+2023-05-14 01:59:40,144 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61a8d4e1 
+2023-05-14 01:59:40,147 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40d52be7, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d512ddb, org.springframework.security.web.header.HeaderWriterFilter@6f8e9d06, org.springframework.web.filter.CorsFilter@23ad71bf, org.springframework.security.web.authentication.logout.LogoutFilter@20c812c8, com.zeroinfinity.federatedserver.config.JwtRequestFilter@53d13cd4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4de79b7d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e26f1ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1983b48a, org.springframework.security.web.session.SessionManagementFilter@32f1fafe, org.springframework.security.web.access.ExceptionTranslationFilter@53f0d09c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a1b8a46] 
+2023-05-14 01:59:40,148 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4921e79 
+2023-05-14 01:59:40,152 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28657281 
+2023-05-14 01:59:40,156 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1db89b3b 
+2023-05-14 01:59:40,156 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 01:59:40,410 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9090"] 
+2023-05-14 01:59:40,435 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9090 (http) with context path '' 
+2023-05-14 01:59:40,436 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-14 01:59:40,461 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-14 01:59:40,502 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-14 01:59:40,770 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: syncModelUsingGET_1 
+2023-05-14 01:59:40,786 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Triggering deferred initialization of Spring Data repositories… 
+2023-05-14 01:59:41,068 [task-1] INFO  [JtaPlatformInitiator] [RRN="] - [STAN="] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-05-14 01:59:41,080 [task-1] INFO  [LocalContainerEntityManagerFactoryBean] [RRN="] - [STAN="] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-05-14 01:59:41,443 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Spring Data repositories initialized! 
+2023-05-14 01:59:41,452 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Started FederatedServerApplication in 5.736 seconds (JVM running for 6.213) 
+2023-05-14 02:00:10,124 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:00:10,124 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:00:27,011 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Starting FederatedServerApplication on Hasnain-Rabbani with PID 14220 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server) 
+2023-05-14 02:00:27,013 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - No active profile set, falling back to default profiles: default 
+2023-05-14 02:00:28,046 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2023-05-14 02:00:28,132 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Finished Spring Data repository scanning in 75ms. Found 3 JPA repository interfaces. 
+2023-05-14 02:00:28,386 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-14 02:00:28,477 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-14 02:00:28,477 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 02:00:28,478 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 02:00:28,478 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 02:00:28,478 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-14 02:00:28,478 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 02:00:28,478 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 02:00:28,663 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-14 02:00:29,447 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9090 (http) 
+2023-05-14 02:00:29,461 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9090"] 
+2023-05-14 02:00:29,462 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-14 02:00:29,462 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-14 02:00:29,628 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-14 02:00:29,629 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 2542 ms 
+2023-05-14 02:00:29,639 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-14 02:00:29,645 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-14 02:00:29,854 [main] DEBUG [HikariConfig] [RRN="] - [STAN="] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+2023-05-14 02:00:30,024 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-14 02:00:30,154 [task-1] INFO  [LogHelper] [RRN="] - [STAN="] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-05-14 02:00:30,208 [main] WARN  [JpaBaseConfiguration$JpaWebConfiguration] [RRN="] - [STAN="] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-05-14 02:00:30,273 [task-1] INFO  [Version] [RRN="] - [STAN="] - HHH000412: Hibernate ORM core version 5.4.17.Final 
+2023-05-14 02:00:30,644 [task-1] INFO  [Version] [RRN="] - [STAN="] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2023-05-14 02:00:31,029 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - HikariPool-1 - configuration: 
+2023-05-14 02:00:31,031 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - allowPoolSuspension.............false 
+2023-05-14 02:00:31,031 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - autoCommit......................true 
+2023-05-14 02:00:31,031 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - catalog.........................none 
+2023-05-14 02:00:31,031 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionInitSql...............none 
+2023-05-14 02:00:31,032 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTestQuery.............none 
+2023-05-14 02:00:31,032 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTimeout...............30000 
+2023-05-14 02:00:31,032 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSource......................none 
+2023-05-14 02:00:31,032 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceClassName.............none 
+2023-05-14 02:00:31,032 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceJNDI..................none 
+2023-05-14 02:00:31,033 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceProperties............{password=<masked>} 
+2023-05-14 02:00:31,033 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - driverClassName................."com.mysql.cj.jdbc.Driver" 
+2023-05-14 02:00:31,033 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - exceptionOverrideClassName......none 
+2023-05-14 02:00:31,033 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckProperties...........{} 
+2023-05-14 02:00:31,033 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckRegistry.............none 
+2023-05-14 02:00:31,034 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - idleTimeout.....................600000 
+2023-05-14 02:00:31,034 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - initializationFailTimeout.......1 
+2023-05-14 02:00:31,034 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - isolateInternalQueries..........false 
+2023-05-14 02:00:31,034 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - jdbcUrl.........................jdbc:mysql://localhost:3306/test 
+2023-05-14 02:00:31,034 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - leakDetectionThreshold..........0 
+2023-05-14 02:00:31,034 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maxLifetime.....................1800000 
+2023-05-14 02:00:31,035 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maximumPoolSize.................10 
+2023-05-14 02:00:31,035 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricRegistry..................none 
+2023-05-14 02:00:31,035 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricsTrackerFactory...........none 
+2023-05-14 02:00:31,035 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - minimumIdle.....................10 
+2023-05-14 02:00:31,035 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - password........................<masked> 
+2023-05-14 02:00:31,035 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - poolName........................"HikariPool-1" 
+2023-05-14 02:00:31,036 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - readOnly........................false 
+2023-05-14 02:00:31,036 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - registerMbeans..................false 
+2023-05-14 02:00:31,036 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - scheduledExecutor...............none 
+2023-05-14 02:00:31,036 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - schema..........................none 
+2023-05-14 02:00:31,036 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - threadFactory...................internal 
+2023-05-14 02:00:31,036 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - transactionIsolation............default 
+2023-05-14 02:00:31,037 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - username........................"root" 
+2023-05-14 02:00:31,037 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - validationTimeout...............5000 
+2023-05-14 02:00:31,037 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Starting... 
+2023-05-14 02:00:31,499 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-14 02:00:31,500 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-14 02:00:31,500 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-14 02:00:31,502 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-14 02:00:31,502 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-14 02:00:31,502 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-14 02:00:31,523 [task-1] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50a5d786 
+2023-05-14 02:00:31,525 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Start completed. 
+2023-05-14 02:00:31,557 [task-1] INFO  [Dialect] [RRN="] - [STAN="] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2023-05-14 02:00:31,579 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-14 02:00:31,654 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0) 
+2023-05-14 02:00:31,677 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@528cdf6e 
+2023-05-14 02:00:31,683 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13b1d555 
+2023-05-14 02:00:31,688 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22688032 
+2023-05-14 02:00:31,692 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@739e2a1a 
+2023-05-14 02:00:31,697 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59a7cae2 
+2023-05-14 02:00:31,701 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77d0352d 
+2023-05-14 02:00:31,705 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fc680b5 
+2023-05-14 02:00:31,709 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@190da034 
+2023-05-14 02:00:31,720 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c544884 
+2023-05-14 02:00:31,720 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:00:31,810 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32091c14, org.springframework.security.web.context.SecurityContextPersistenceFilter@2291d9a0, org.springframework.security.web.header.HeaderWriterFilter@32f1fafe, org.springframework.web.filter.CorsFilter@7c40ffef, org.springframework.security.web.authentication.logout.LogoutFilter@53940e2f, com.zeroinfinity.federatedserver.config.JwtRequestFilter@5578be42, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39666e42, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32f32623, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@286855ea, org.springframework.security.web.session.SessionManagementFilter@2839e3c8, org.springframework.security.web.access.ExceptionTranslationFilter@47272cd3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1983b48a] 
+2023-05-14 02:00:32,244 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9090"] 
+2023-05-14 02:00:32,425 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9090 (http) with context path '' 
+2023-05-14 02:00:32,429 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-14 02:00:32,489 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-14 02:00:32,594 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-14 02:00:33,048 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: syncModelUsingGET_1 
+2023-05-14 02:00:33,074 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Triggering deferred initialization of Spring Data repositories… 
+2023-05-14 02:00:33,302 [task-1] INFO  [JtaPlatformInitiator] [RRN="] - [STAN="] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-05-14 02:00:33,320 [task-1] INFO  [LocalContainerEntityManagerFactoryBean] [RRN="] - [STAN="] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-05-14 02:00:34,091 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Spring Data repositories initialized! 
+2023-05-14 02:00:34,101 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Started FederatedServerApplication in 7.627 seconds (JVM running for 8.029) 
+2023-05-14 02:01:01,670 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:01:01,671 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:01:31,672 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:01:31,672 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:02:01,075 [http-nio-9090-exec-1] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-14 02:02:01,075 [http-nio-9090-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-14 02:02:01,083 [http-nio-9090-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 8 ms 
+2023-05-14 02:02:01,174 [http-nio-9090-exec-1] ERROR [RestExceptionHandler] [RRN="] - [STAN="] - Generic Exception Handler envoked 
+2023-05-14 02:02:01,257 [http-nio-9090-exec-4] ERROR [JwtRequestFilter] [RRN="] - [STAN="] - JWT signature does not match locally computed signature 
+2023-05-14 02:02:01,257 [http-nio-9090-exec-4] INFO  [JwtRequestFilter] [RRN="] - [STAN="] - Exception occurred in JwtFilter : ----Malformed Token ---- 
+2023-05-14 02:02:01,674 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:02:01,674 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:02:31,683 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:02:31,683 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:03:01,685 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:03:01,685 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:03:31,696 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:03:31,697 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:04:01,701 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:04:01,701 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:04:31,702 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:04:31,703 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:05:01,709 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:05:01,709 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:05:31,724 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:05:31,725 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:05:39,539 [http-nio-9090-exec-8] ERROR [RestExceptionHandler] [RRN="] - [STAN="] - Generic Exception Handler envoked 
+2023-05-14 02:05:39,597 [http-nio-9090-exec-9] ERROR [JwtRequestFilter] [RRN="] - [STAN="] - JWT signature does not match locally computed signature 
+2023-05-14 02:05:39,597 [http-nio-9090-exec-9] INFO  [JwtRequestFilter] [RRN="] - [STAN="] - Exception occurred in JwtFilter : ----Malformed Token ---- 
+2023-05-14 02:05:58,311 [http-nio-9090-exec-10] ERROR [RestExceptionHandler] [RRN="] - [STAN="] - Generic Exception Handler envoked 
+2023-05-14 02:06:01,739 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:06:01,739 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:06:31,752 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:06:31,752 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:06:31,878 [http-nio-9090-exec-7] ERROR [JwtRequestFilter] [RRN="] - [STAN="] - JWT signature does not match locally computed signature 
+2023-05-14 02:06:31,878 [http-nio-9090-exec-7] INFO  [JwtRequestFilter] [RRN="] - [STAN="] - Exception occurred in JwtFilter : ----Malformed Token ---- 
+2023-05-14 02:07:01,760 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:07:01,760 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:07:31,766 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:07:31,766 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:08:01,779 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:08:01,780 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:08:04,873 [http-nio-9090-exec-3] ERROR [RestExceptionHandler] [RRN="] - [STAN="] - Generic Exception Handler envoked 
+2023-05-14 02:08:23,423 [http-nio-9090-exec-2] ERROR [JwtRequestFilter] [RRN="] - [STAN="] - JWT signature does not match locally computed signature 
+2023-05-14 02:08:23,423 [http-nio-9090-exec-2] INFO  [JwtRequestFilter] [RRN="] - [STAN="] - Exception occurred in JwtFilter : ----Malformed Token ---- 
+2023-05-14 02:08:31,791 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:08:31,791 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:09:01,799 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:09:01,799 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:09:16,624 [http-nio-9090-exec-4] INFO  [JwtAuthenticationController] [RRN="] - [STAN="] - Authenticating : User : admin 
+2023-05-14 02:09:31,805 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:09:31,805 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:09:33,529 [http-nio-9090-exec-5] INFO  [ServiceController] [RRN="] - [STAN="] - Request received to pull and sync machine learning model for client @ V1 
+2023-05-14 02:09:33,529 [http-nio-9090-exec-5] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Incoming request to pull models for server. model version: version14 
+2023-05-14 02:10:01,810 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:10:01,811 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:10:31,812 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:10:31,812 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:11:01,812 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:11:01,813 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:11:31,825 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:11:31,825 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:12:01,838 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:12:01,838 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:12:31,849 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:12:31,849 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:13:01,855 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:13:01,855 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:13:31,860 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:13:31,860 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:14:01,871 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:14:01,872 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:14:31,876 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:14:31,876 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:15:01,884 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:15:01,885 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:15:31,889 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:15:31,889 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:16:01,895 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:16:01,896 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:16:31,902 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:16:31,903 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:17:01,906 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:17:01,906 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:17:31,907 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:17:31,908 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:18:01,920 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:18:01,921 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:18:31,924 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:18:31,924 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:18:38,185 [http-nio-9090-exec-9] WARN  [JwtRequestFilter] [RRN="] - [STAN="] - User:null token has expired 
+2023-05-14 02:18:38,185 [http-nio-9090-exec-9] INFO  [JwtRequestFilter] [RRN="] - [STAN="] - Exception occurred in JwtFilter : ----Token Expired---- 
+2023-05-14 02:18:48,250 [http-nio-9090-exec-10] INFO  [JwtAuthenticationController] [RRN="] - [STAN="] - Authenticating : User : admin 
+2023-05-14 02:19:01,937 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:19:01,937 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:19:04,007 [http-nio-9090-exec-7] INFO  [ServiceController] [RRN="] - [STAN="] - Request received to pull and sync machine learning model from clients @ V1 
+2023-05-14 02:19:04,007 [http-nio-9090-exec-7] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Incoming request to pull models from clients. 
+2023-05-14 02:19:04,014 [http-nio-9090-exec-7] INFO  [UnirestUtil] [RRN="] - [STAN="] - POST: params: [admin@123] 
+2023-05-14 02:19:06,240 [http-nio-9090-exec-7] ERROR [UnirestUtil] [RRN="] - [STAN="] - Inside UnirestUtil: get ExecutionException error: {} 
+java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:71)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:84)
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:70)
+	at com.mashape.unirest.http.HttpClientHelper$2.get(HttpClientHelper.java:119)
+	at com.mashape.unirest.http.HttpClientHelper$2.get(HttpClientHelper.java:104)
+	at com.zeroinfinity.federatedserver.util.UnirestUtil.post(UnirestUtil.java:91)
+	at com.zeroinfinity.federatedserver.service.impl.RestServerServiceImpl.pullAndSyncModel(RestServerServiceImpl.java:118)
+	at com.zeroinfinity.federatedserver.controller.ServiceController.syncModel(ServiceController.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.zeroinfinity.federatedserver.config.JwtRequestFilter.doFilter(JwtRequestFilter.java:103)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.zeroinfinity.federatedserver.config.JwtRequestFilter.doFilter(JwtRequestFilter.java:103)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	... 1 common frames omitted
+2023-05-14 02:19:06,257 [http-nio-9090-exec-7] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - client1 - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQxfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTE0NCwiaWF0IjoxNjg0MDEyNzQ0fQ.cRoWpvZ6pocv1DF9RV4-YATqwpibSK8-GAYptgF4MonoBHNuKWo2CxNX7U3nq0ky4QBqZ9b3dup2twUXChcHhg - expiry: 1684099144 
+2023-05-14 02:19:06,257 [http-nio-9090-exec-7] INFO  [UnirestUtil] [RRN="] - [STAN="] - GET: params: [eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQxfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTE0NCwiaWF0IjoxNjg0MDEyNzQ0fQ.cRoWpvZ6pocv1DF9RV4-YATqwpibSK8-GAYptgF4MonoBHNuKWo2CxNX7U3nq0ky4QBqZ9b3dup2twUXChcHhg] 
+2023-05-14 02:19:06,260 [http-nio-9090-exec-7] ERROR [ServiceController] [RRN="] - [STAN="] - exception - method: syncModel -> {}  
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at com.zeroinfinity.federatedserver.util.UnirestUtil.get(UnirestUtil.java:52)
+	at com.zeroinfinity.federatedserver.service.impl.RestServerServiceImpl.pullAndSyncModel(RestServerServiceImpl.java:132)
+	at com.zeroinfinity.federatedserver.controller.ServiceController.syncModel(ServiceController.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.zeroinfinity.federatedserver.config.JwtRequestFilter.doFilter(JwtRequestFilter.java:103)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.zeroinfinity.federatedserver.config.JwtRequestFilter.doFilter(JwtRequestFilter.java:103)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-05-14 02:19:31,949 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:19:31,950 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:20:56,773 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Starting FederatedServerApplication on Hasnain-Rabbani with PID 28272 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server) 
+2023-05-14 02:20:56,781 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - No active profile set, falling back to default profiles: default 
+2023-05-14 02:21:00,195 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2023-05-14 02:21:00,424 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Finished Spring Data repository scanning in 209ms. Found 3 JPA repository interfaces. 
+2023-05-14 02:21:01,848 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-14 02:21:02,534 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-14 02:21:02,534 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 02:21:02,534 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 02:21:02,535 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 02:21:02,535 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-14 02:21:02,535 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 02:21:02,535 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 02:21:03,017 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-14 02:21:08,457 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9090 (http) 
+2023-05-14 02:21:08,514 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9090"] 
+2023-05-14 02:21:08,520 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-14 02:21:08,521 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-14 02:21:09,120 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-14 02:21:09,134 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 12238 ms 
+2023-05-14 02:21:09,161 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-14 02:21:09,169 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-14 02:21:10,703 [main] DEBUG [HikariConfig] [RRN="] - [STAN="] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+2023-05-14 02:21:11,295 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-14 02:21:11,779 [task-1] INFO  [LogHelper] [RRN="] - [STAN="] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-05-14 02:21:11,787 [main] WARN  [JpaBaseConfiguration$JpaWebConfiguration] [RRN="] - [STAN="] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-05-14 02:21:12,092 [task-1] INFO  [Version] [RRN="] - [STAN="] - HHH000412: Hibernate ORM core version 5.4.17.Final 
+2023-05-14 02:21:12,586 [task-1] INFO  [Version] [RRN="] - [STAN="] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2023-05-14 02:21:12,999 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - HikariPool-1 - configuration: 
+2023-05-14 02:21:13,002 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - allowPoolSuspension.............false 
+2023-05-14 02:21:13,002 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - autoCommit......................true 
+2023-05-14 02:21:13,002 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - catalog.........................none 
+2023-05-14 02:21:13,002 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionInitSql...............none 
+2023-05-14 02:21:13,002 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTestQuery.............none 
+2023-05-14 02:21:13,002 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTimeout...............30000 
+2023-05-14 02:21:13,004 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSource......................none 
+2023-05-14 02:21:13,004 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceClassName.............none 
+2023-05-14 02:21:13,004 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceJNDI..................none 
+2023-05-14 02:21:13,005 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceProperties............{password=<masked>} 
+2023-05-14 02:21:13,005 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - driverClassName................."com.mysql.cj.jdbc.Driver" 
+2023-05-14 02:21:13,005 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - exceptionOverrideClassName......none 
+2023-05-14 02:21:13,005 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckProperties...........{} 
+2023-05-14 02:21:13,006 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckRegistry.............none 
+2023-05-14 02:21:13,006 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - idleTimeout.....................600000 
+2023-05-14 02:21:13,006 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - initializationFailTimeout.......1 
+2023-05-14 02:21:13,006 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - isolateInternalQueries..........false 
+2023-05-14 02:21:13,006 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - jdbcUrl.........................jdbc:mysql://localhost:3306/test 
+2023-05-14 02:21:13,007 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - leakDetectionThreshold..........0 
+2023-05-14 02:21:13,007 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maxLifetime.....................1800000 
+2023-05-14 02:21:13,007 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maximumPoolSize.................10 
+2023-05-14 02:21:13,007 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricRegistry..................none 
+2023-05-14 02:21:13,007 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricsTrackerFactory...........none 
+2023-05-14 02:21:13,007 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - minimumIdle.....................10 
+2023-05-14 02:21:13,008 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - password........................<masked> 
+2023-05-14 02:21:13,008 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - poolName........................"HikariPool-1" 
+2023-05-14 02:21:13,008 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - readOnly........................false 
+2023-05-14 02:21:13,008 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - registerMbeans..................false 
+2023-05-14 02:21:13,008 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - scheduledExecutor...............none 
+2023-05-14 02:21:13,008 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - schema..........................none 
+2023-05-14 02:21:13,009 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - threadFactory...................internal 
+2023-05-14 02:21:13,009 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - transactionIsolation............default 
+2023-05-14 02:21:13,009 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - username........................"root" 
+2023-05-14 02:21:13,009 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - validationTimeout...............5000 
+2023-05-14 02:21:13,009 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Starting... 
+2023-05-14 02:21:13,287 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-14 02:21:13,288 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-14 02:21:13,288 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-14 02:21:13,288 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-14 02:21:13,288 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-14 02:21:13,288 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-14 02:21:13,352 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-14 02:21:13,474 [task-1] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e860390 
+2023-05-14 02:21:13,480 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Start completed. 
+2023-05-14 02:21:13,539 [task-1] INFO  [Dialect] [RRN="] - [STAN="] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2023-05-14 02:21:13,582 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0) 
+2023-05-14 02:21:13,611 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b0ebd56 
+2023-05-14 02:21:13,614 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b73bd6b, org.springframework.security.web.context.SecurityContextPersistenceFilter@306c7bf6, org.springframework.security.web.header.HeaderWriterFilter@14422d9d, org.springframework.web.filter.CorsFilter@157d3a45, org.springframework.security.web.authentication.logout.LogoutFilter@51e3d37e, com.zeroinfinity.federatedserver.config.JwtRequestFilter@60b34931, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@494c8f29, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7792d851, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@750ed637, org.springframework.security.web.session.SessionManagementFilter@2001e48c, org.springframework.security.web.access.ExceptionTranslationFilter@3281dfc2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58fd1214] 
+2023-05-14 02:21:13,616 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a33b76d 
+2023-05-14 02:21:13,621 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bf379e9 
+2023-05-14 02:21:13,625 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a1c4822 
+2023-05-14 02:21:13,630 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e04d69 
+2023-05-14 02:21:13,635 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e52568f 
+2023-05-14 02:21:13,639 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7261b230 
+2023-05-14 02:21:13,644 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@687dd8f0 
+2023-05-14 02:21:13,649 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24f7c4d6 
+2023-05-14 02:21:13,649 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0) 
+2023-05-14 02:21:14,195 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9090"] 
+2023-05-14 02:21:14,310 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9090 (http) with context path '' 
+2023-05-14 02:21:14,320 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-14 02:21:14,467 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-14 02:21:14,547 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-14 02:21:14,863 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: syncModelUsingGET_1 
+2023-05-14 02:21:15,045 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Triggering deferred initialization of Spring Data repositories… 
+2023-05-14 02:21:15,472 [task-1] INFO  [JtaPlatformInitiator] [RRN="] - [STAN="] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-05-14 02:21:15,487 [task-1] INFO  [LocalContainerEntityManagerFactoryBean] [RRN="] - [STAN="] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-05-14 02:21:16,007 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Spring Data repositories initialized! 
+2023-05-14 02:21:16,019 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Started FederatedServerApplication in 21.215 seconds (JVM running for 23.511) 
+2023-05-14 02:21:27,312 [http-nio-9090-exec-3] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-14 02:21:27,312 [http-nio-9090-exec-3] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-14 02:21:27,322 [http-nio-9090-exec-3] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 9 ms 
+2023-05-14 02:21:27,894 [http-nio-9090-exec-3] INFO  [ServiceController] [RRN="] - [STAN="] - Request received to check model version @ V1 
+2023-05-14 02:21:27,894 [http-nio-9090-exec-3] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Incoming request to check the model version. 
+2023-05-14 02:21:28,104 [http-nio-9090-exec-3] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Active version found: version14 
+2023-05-14 02:21:36,290 [http-nio-9090-exec-4] INFO  [ServiceController] [RRN="] - [STAN="] - Request received to update model version @ V1 
+2023-05-14 02:21:36,290 [http-nio-9090-exec-4] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Incoming request to update the model version. 
+2023-05-14 02:21:36,292 [http-nio-9090-exec-4] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Active model version found. Changing the status from Active to InActive  
+2023-05-14 02:21:36,783 [http-nio-9090-exec-4] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - New Active version activated: version15 
+2023-05-14 02:21:36,783 [http-nio-9090-exec-4] INFO  [UnirestUtil] [RRN="] - [STAN="] - POST: params: [admin@123] 
+2023-05-14 02:21:38,352 [http-nio-9090-exec-4] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - client1 - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQxfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTI5NywiaWF0IjoxNjg0MDEyODk3fQ.S1-REGCI8PAoaEs4E_yBrRNq1s-P_ai2I0fEMGTtUAL62Bz-rcbRPcirqGwDQqwbtBaZj3O2zsLm5pXHMJ1rZw - expiry: 1684099297 
+2023-05-14 02:21:38,352 [http-nio-9090-exec-4] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - client2 - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQyfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTI5NywiaWF0IjoxNjg0MDEyODk3fQ.42XTxarhUaMIVTmIcdg_kG_HtiPhUK7THOd0JV51O7TSq7r_7g0wWaDu9yEsLUF09u0Bw460m0l84OatQkW-Yg - expiry: 1684099297 
+2023-05-14 02:21:38,352 [http-nio-9090-exec-4] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - client3 - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQzfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTI5NywiaWF0IjoxNjg0MDEyODk3fQ.1iU-QpJ0AlFvA0b6EIoReZ2ZOdx1-qz2Fwxj0EWU1ZVltNI6xufnv9qUtM00AeNSHgerRJDla0zjtqiiZnazDA - expiry: 1684099297 
+2023-05-14 02:21:38,352 [http-nio-9090-exec-4] INFO  [UnirestUtil] [RRN="] - [STAN="] - GET: params: [eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQxfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTI5NywiaWF0IjoxNjg0MDEyODk3fQ.S1-REGCI8PAoaEs4E_yBrRNq1s-P_ai2I0fEMGTtUAL62Bz-rcbRPcirqGwDQqwbtBaZj3O2zsLm5pXHMJ1rZw, eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQyfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTI5NywiaWF0IjoxNjg0MDEyODk3fQ.42XTxarhUaMIVTmIcdg_kG_HtiPhUK7THOd0JV51O7TSq7r_7g0wWaDu9yEsLUF09u0Bw460m0l84OatQkW-Yg, eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQzfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTI5NywiaWF0IjoxNjg0MDEyODk3fQ.1iU-QpJ0AlFvA0b6EIoReZ2ZOdx1-qz2Fwxj0EWU1ZVltNI6xufnv9qUtM00AeNSHgerRJDla0zjtqiiZnazDA] 
+2023-05-14 02:21:39,226 [http-nio-9090-exec-4] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - All client model version upgraded to version15 successfully. 
+2023-05-14 02:21:43,586 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:21:43,586 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:22:13,602 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:22:13,602 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:22:43,604 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:22:43,604 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:23:13,615 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:23:13,615 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:23:43,624 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:23:43,624 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:24:13,639 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:24:13,640 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:24:43,647 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:24:43,647 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:24:58,975 [http-nio-9090-exec-8] INFO  [ServiceController] [RRN="] - [STAN="] - Request received to pull and sync machine learning model from clients @ V1 
+2023-05-14 02:24:58,975 [http-nio-9090-exec-8] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Incoming request to pull models from clients. 
+2023-05-14 02:24:59,076 [http-nio-9090-exec-8] INFO  [UnirestUtil] [RRN="] - [STAN="] - POST: params: [admin@123] 
+2023-05-14 02:24:59,305 [http-nio-9090-exec-8] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - client1 - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQxfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTQ5OSwiaWF0IjoxNjg0MDEzMDk5fQ.hq5FrTWBFX-_M1zE2268tcpjQOIZZKVAhSG2oZVKKGcZLI0kK_SADMl5OIFWgDiEo8NTy0YDMBwLlvuq5VE6zQ - expiry: 1684099499 
+2023-05-14 02:24:59,306 [http-nio-9090-exec-8] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - client2 - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQyfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTQ5OSwiaWF0IjoxNjg0MDEzMDk5fQ.YFF0ZkGpZGph__2DSAlPHjcRjBue_33SULTIb_H1rvxxEEMGjmkKBPT8J57pgBEiL3bbyXh1mS_AIyxRAo0dRQ - expiry: 1684099499 
+2023-05-14 02:24:59,308 [http-nio-9090-exec-8] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - client3 - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQzfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTQ5OSwiaWF0IjoxNjg0MDEzMDk5fQ.G9ykXp_2gGlDgqKp2l1rva9ABozdvyNdxnliVQYMMb2dMpnloVnXVGQuGibmcMGjuMrIuIdIQs_JJSdN9CTstA - expiry: 1684099499 
+2023-05-14 02:24:59,308 [http-nio-9090-exec-8] INFO  [UnirestUtil] [RRN="] - [STAN="] - GET: params: [eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQxfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTQ5OSwiaWF0IjoxNjg0MDEzMDk5fQ.hq5FrTWBFX-_M1zE2268tcpjQOIZZKVAhSG2oZVKKGcZLI0kK_SADMl5OIFWgDiEo8NTy0YDMBwLlvuq5VE6zQ, eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQyfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTQ5OSwiaWF0IjoxNjg0MDEzMDk5fQ.YFF0ZkGpZGph__2DSAlPHjcRjBue_33SULTIb_H1rvxxEEMGjmkKBPT8J57pgBEiL3bbyXh1mS_AIyxRAo0dRQ, eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQzfHplcm9pbmZpbml0eSIsImV4cCI6MTY4NDA5OTQ5OSwiaWF0IjoxNjg0MDEzMDk5fQ.G9ykXp_2gGlDgqKp2l1rva9ABozdvyNdxnliVQYMMb2dMpnloVnXVGQuGibmcMGjuMrIuIdIQs_JJSdN9CTstA] 
+2023-05-14 02:25:13,658 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:25:13,659 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:25:43,664 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:25:43,664 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:26:13,678 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:26:13,678 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:26:43,686 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:26:43,686 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:27:05,408 [http-nio-9090-exec-9] INFO  [JwtAuthenticationController] [RRN="] - [STAN="] - Authenticating : User : admin 
+2023-05-14 02:27:05,584 [http-nio-9090-exec-6] INFO  [ServiceController] [RRN="] - [STAN="] - Request received to pull and sync machine learning model for client @ V1 
+2023-05-14 02:27:05,584 [http-nio-9090-exec-6] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Incoming request to pull models for server. model version: version15 
+2023-05-14 02:27:13,690 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:27:13,690 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:27:30,276 [http-nio-9090-exec-2] INFO  [JwtAuthenticationController] [RRN="] - [STAN="] - Authenticating : User : admin 
+2023-05-14 02:27:30,356 [http-nio-9090-exec-5] INFO  [ServiceController] [RRN="] - [STAN="] - Request received to pull and sync machine learning model for client @ V1 
+2023-05-14 02:27:30,356 [http-nio-9090-exec-5] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Incoming request to pull models for server. model version: version15 
+2023-05-14 02:27:43,696 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:27:43,697 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:28:13,698 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:28:13,698 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:28:43,703 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:28:43,703 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:29:13,713 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:29:13,713 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:29:43,724 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:29:43,724 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:30:13,741 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:30:13,741 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:30:43,744 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:30:43,744 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:31:13,752 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:31:13,752 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:31:43,765 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:31:43,766 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:32:16,947 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Starting FederatedServerApplication on Hasnain-Rabbani with PID 23024 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server) 
+2023-05-14 02:32:16,950 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - No active profile set, falling back to default profiles: default 
+2023-05-14 02:32:17,877 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2023-05-14 02:32:17,958 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Finished Spring Data repository scanning in 72ms. Found 3 JPA repository interfaces. 
+2023-05-14 02:32:18,239 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-14 02:32:18,325 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-14 02:32:18,326 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 02:32:18,326 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 02:32:18,326 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 02:32:18,326 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-14 02:32:18,326 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-14 02:32:18,326 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-14 02:32:18,515 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-14 02:32:19,192 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9090 (http) 
+2023-05-14 02:32:19,201 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9090"] 
+2023-05-14 02:32:19,202 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-14 02:32:19,202 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-14 02:32:19,299 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-14 02:32:19,299 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 2302 ms 
+2023-05-14 02:32:19,307 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-14 02:32:19,313 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-14 02:32:19,425 [main] DEBUG [HikariConfig] [RRN="] - [STAN="] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+2023-05-14 02:32:19,507 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-14 02:32:19,547 [task-1] INFO  [LogHelper] [RRN="] - [STAN="] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-05-14 02:32:19,589 [main] WARN  [JpaBaseConfiguration$JpaWebConfiguration] [RRN="] - [STAN="] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-05-14 02:32:19,614 [task-1] INFO  [Version] [RRN="] - [STAN="] - HHH000412: Hibernate ORM core version 5.4.17.Final 
+2023-05-14 02:32:19,790 [task-1] INFO  [Version] [RRN="] - [STAN="] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2023-05-14 02:32:19,954 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - HikariPool-1 - configuration: 
+2023-05-14 02:32:19,956 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - allowPoolSuspension.............false 
+2023-05-14 02:32:19,957 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - autoCommit......................true 
+2023-05-14 02:32:19,957 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - catalog.........................none 
+2023-05-14 02:32:19,957 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionInitSql...............none 
+2023-05-14 02:32:19,957 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTestQuery.............none 
+2023-05-14 02:32:19,957 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTimeout...............30000 
+2023-05-14 02:32:19,957 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSource......................none 
+2023-05-14 02:32:19,957 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceClassName.............none 
+2023-05-14 02:32:19,957 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceJNDI..................none 
+2023-05-14 02:32:19,959 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceProperties............{password=<masked>} 
+2023-05-14 02:32:19,959 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - driverClassName................."com.mysql.cj.jdbc.Driver" 
+2023-05-14 02:32:19,959 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - exceptionOverrideClassName......none 
+2023-05-14 02:32:19,959 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckProperties...........{} 
+2023-05-14 02:32:19,959 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckRegistry.............none 
+2023-05-14 02:32:19,959 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - idleTimeout.....................600000 
+2023-05-14 02:32:19,959 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - initializationFailTimeout.......1 
+2023-05-14 02:32:19,959 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - isolateInternalQueries..........false 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - jdbcUrl.........................jdbc:mysql://localhost:3306/test 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - leakDetectionThreshold..........0 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maxLifetime.....................1800000 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maximumPoolSize.................10 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricRegistry..................none 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricsTrackerFactory...........none 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - minimumIdle.....................10 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - password........................<masked> 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - poolName........................"HikariPool-1" 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - readOnly........................false 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - registerMbeans..................false 
+2023-05-14 02:32:19,960 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - scheduledExecutor...............none 
+2023-05-14 02:32:19,961 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - schema..........................none 
+2023-05-14 02:32:19,961 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - threadFactory...................internal 
+2023-05-14 02:32:19,961 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - transactionIsolation............default 
+2023-05-14 02:32:19,961 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - username........................"root" 
+2023-05-14 02:32:19,961 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - validationTimeout...............5000 
+2023-05-14 02:32:19,961 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Starting... 
+2023-05-14 02:32:20,133 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-14 02:32:20,133 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-14 02:32:20,133 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-14 02:32:20,133 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-14 02:32:20,133 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-14 02:32:20,133 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-14 02:32:20,166 [task-1] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@776d6997 
+2023-05-14 02:32:20,168 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Start completed. 
+2023-05-14 02:32:20,182 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-14 02:32:20,193 [task-1] INFO  [Dialect] [RRN="] - [STAN="] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2023-05-14 02:32:20,288 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+2023-05-14 02:32:20,294 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d0da9c7 
+2023-05-14 02:32:20,298 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c30a3fc 
+2023-05-14 02:32:20,302 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3df6686f 
+2023-05-14 02:32:20,306 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c1f5cb3 
+2023-05-14 02:32:20,311 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@524dd72b 
+2023-05-14 02:32:20,314 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6851441d 
+2023-05-14 02:32:20,317 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e4ba9f9 
+2023-05-14 02:32:20,317 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59fc6d05, org.springframework.security.web.context.SecurityContextPersistenceFilter@32f1fafe, org.springframework.security.web.header.HeaderWriterFilter@53f0d09c, org.springframework.web.filter.CorsFilter@78307a56, org.springframework.security.web.authentication.logout.LogoutFilter@5a058be5, com.zeroinfinity.federatedserver.config.JwtRequestFilter@3291b443, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d512ddb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66bf40e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40d52be7, org.springframework.security.web.session.SessionManagementFilter@47272cd3, org.springframework.security.web.access.ExceptionTranslationFilter@5f7eee96, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f677247] 
+2023-05-14 02:32:20,321 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79285506 
+2023-05-14 02:32:20,325 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4042cdce 
+2023-05-14 02:32:20,325 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:32:20,600 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9090"] 
+2023-05-14 02:32:20,628 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9090 (http) with context path '' 
+2023-05-14 02:32:20,629 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-14 02:32:20,661 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-14 02:32:20,694 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-14 02:32:20,857 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: syncModelUsingGET_1 
+2023-05-14 02:32:20,873 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Triggering deferred initialization of Spring Data repositories… 
+2023-05-14 02:32:21,297 [task-1] INFO  [JtaPlatformInitiator] [RRN="] - [STAN="] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-05-14 02:32:21,310 [task-1] INFO  [LocalContainerEntityManagerFactoryBean] [RRN="] - [STAN="] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-05-14 02:32:21,866 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Spring Data repositories initialized! 
+2023-05-14 02:32:21,876 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Started FederatedServerApplication in 5.482 seconds (JVM running for 5.916) 
+2023-05-14 02:32:26,647 [http-nio-9090-exec-1] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-14 02:32:26,647 [http-nio-9090-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-14 02:32:26,656 [http-nio-9090-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 9 ms 
+2023-05-14 02:32:26,759 [http-nio-9090-exec-1] INFO  [JwtAuthenticationController] [RRN="] - [STAN="] - Authenticating : User : admin 
+2023-05-14 02:32:27,446 [http-nio-9090-exec-2] INFO  [ServiceController] [RRN="] - [STAN="] - Request received to pull and sync machine learning model for client @ V1 
+2023-05-14 02:32:27,446 [http-nio-9090-exec-2] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Incoming request to pull models for server. model version: version15 
+2023-05-14 02:32:50,293 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:32:50,293 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:33:20,306 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:33:20,307 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:33:50,316 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:33:50,317 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:34:20,327 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:34:20,327 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:34:50,331 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:34:50,331 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:35:20,333 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:35:20,333 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:35:32,335 [http-nio-9090-exec-4] INFO  [JwtAuthenticationController] [RRN="] - [STAN="] - Authenticating : User : admin 
+2023-05-14 02:35:32,430 [http-nio-9090-exec-8] INFO  [ServiceController] [RRN="] - [STAN="] - Request received to pull and sync machine learning model for client @ V1 
+2023-05-14 02:35:32,430 [http-nio-9090-exec-8] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Incoming request to pull models for server. model version: version15 
+2023-05-14 02:35:50,338 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-14 02:35:50,338 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-14 02:35:58,161 [http-nio-9090-exec-9] INFO  [JwtAuthenticationController] [RRN="] - [STAN="] - Authenticating : User : admin 
+2023-05-14 02:35:58,259 [http-nio-9090-exec-3] INFO  [ServiceController] [RRN="] - [STAN="] - Request received to pull and sync machine learning model for client @ V1 
+2023-05-14 02:35:58,259 [http-nio-9090-exec-3] INFO  [RestServerServiceImpl] [RRN="] - [STAN="] - Incoming request to pull models for server. model version: version15 

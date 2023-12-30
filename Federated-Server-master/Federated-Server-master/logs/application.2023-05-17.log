@@ -1,0 +1,678 @@
+2023-05-17 00:51:07,544 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Starting FederatedServerApplication on Hasnain-Rabbani with PID 7556 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server) 
+2023-05-17 00:51:07,548 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - No active profile set, falling back to default profiles: default 
+2023-05-17 00:51:08,799 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2023-05-17 00:51:08,914 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Finished Spring Data repository scanning in 101ms. Found 3 JPA repository interfaces. 
+2023-05-17 00:51:09,275 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-17 00:51:09,489 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-17 00:51:09,489 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-17 00:51:09,490 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-17 00:51:09,490 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-17 00:51:09,490 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-17 00:51:09,490 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-17 00:51:09,490 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-17 00:51:09,860 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-17 00:51:10,921 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9090 (http) 
+2023-05-17 00:51:10,933 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9090"] 
+2023-05-17 00:51:10,935 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-17 00:51:10,935 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-17 00:51:11,914 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-17 00:51:11,914 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 4319 ms 
+2023-05-17 00:51:11,928 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-17 00:51:11,934 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-17 00:51:12,133 [main] DEBUG [HikariConfig] [RRN="] - [STAN="] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+2023-05-17 00:51:12,300 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-17 00:51:12,477 [task-1] INFO  [LogHelper] [RRN="] - [STAN="] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-05-17 00:51:12,514 [main] WARN  [JpaBaseConfiguration$JpaWebConfiguration] [RRN="] - [STAN="] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-05-17 00:51:12,592 [task-1] INFO  [Version] [RRN="] - [STAN="] - HHH000412: Hibernate ORM core version 5.4.17.Final 
+2023-05-17 00:51:13,084 [task-1] INFO  [Version] [RRN="] - [STAN="] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2023-05-17 00:51:13,264 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - HikariPool-1 - configuration: 
+2023-05-17 00:51:13,268 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - allowPoolSuspension.............false 
+2023-05-17 00:51:13,269 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - autoCommit......................true 
+2023-05-17 00:51:13,269 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - catalog.........................none 
+2023-05-17 00:51:13,269 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionInitSql...............none 
+2023-05-17 00:51:13,270 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTestQuery.............none 
+2023-05-17 00:51:13,270 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTimeout...............30000 
+2023-05-17 00:51:13,270 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSource......................none 
+2023-05-17 00:51:13,270 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceClassName.............none 
+2023-05-17 00:51:13,270 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceJNDI..................none 
+2023-05-17 00:51:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceProperties............{password=<masked>} 
+2023-05-17 00:51:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - driverClassName................."com.mysql.cj.jdbc.Driver" 
+2023-05-17 00:51:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - exceptionOverrideClassName......none 
+2023-05-17 00:51:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckProperties...........{} 
+2023-05-17 00:51:13,271 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckRegistry.............none 
+2023-05-17 00:51:13,272 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - idleTimeout.....................600000 
+2023-05-17 00:51:13,272 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - initializationFailTimeout.......1 
+2023-05-17 00:51:13,272 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - isolateInternalQueries..........false 
+2023-05-17 00:51:13,272 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - jdbcUrl.........................jdbc:mysql://localhost:3306/test 
+2023-05-17 00:51:13,272 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - leakDetectionThreshold..........0 
+2023-05-17 00:51:13,272 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maxLifetime.....................1800000 
+2023-05-17 00:51:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maximumPoolSize.................10 
+2023-05-17 00:51:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricRegistry..................none 
+2023-05-17 00:51:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricsTrackerFactory...........none 
+2023-05-17 00:51:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - minimumIdle.....................10 
+2023-05-17 00:51:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - password........................<masked> 
+2023-05-17 00:51:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - poolName........................"HikariPool-1" 
+2023-05-17 00:51:13,273 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - readOnly........................false 
+2023-05-17 00:51:13,276 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - registerMbeans..................false 
+2023-05-17 00:51:13,277 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - scheduledExecutor...............none 
+2023-05-17 00:51:13,277 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - schema..........................none 
+2023-05-17 00:51:13,277 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - threadFactory...................internal 
+2023-05-17 00:51:13,277 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - transactionIsolation............default 
+2023-05-17 00:51:13,277 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - username........................"root" 
+2023-05-17 00:51:13,278 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - validationTimeout...............5000 
+2023-05-17 00:51:13,278 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Starting... 
+2023-05-17 00:51:13,378 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-17 00:51:13,378 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-17 00:51:13,378 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-17 00:51:13,378 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-17 00:51:13,378 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-17 00:51:13,378 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-17 00:51:13,443 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-17 00:51:13,746 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1775c4e7, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f8e9d06, org.springframework.security.web.header.HeaderWriterFilter@5d152bcd, org.springframework.web.filter.CorsFilter@47829d6d, org.springframework.security.web.authentication.logout.LogoutFilter@3becc950, com.zeroinfinity.federatedserver.config.JwtRequestFilter@4cbc2e3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2272cbb0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@236eccd1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f677247, org.springframework.security.web.session.SessionManagementFilter@53f0d09c, org.springframework.security.web.access.ExceptionTranslationFilter@66383c29, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ac91282] 
+2023-05-17 00:51:14,508 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9090"] 
+2023-05-17 00:51:14,776 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9090 (http) with context path '' 
+2023-05-17 00:51:14,779 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-17 00:51:15,168 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-17 00:51:15,263 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-17 00:51:15,711 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: syncModelUsingGET_1 
+2023-05-17 00:51:15,740 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Triggering deferred initialization of Spring Data repositories… 
+2023-05-17 00:51:17,659 [task-1] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Failed to create/setup connection: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+2023-05-17 00:51:17,663 [task-1] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Cannot acquire connection from data source 
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 33 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 36 common frames omitted
+2023-05-17 00:51:18,672 [task-1] ERROR [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Exception during pool initialization. 
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 33 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 36 common frames omitted
+2023-05-17 00:51:18,673 [task-1] WARN  [JdbcEnvironmentInitiator] [RRN="] - [STAN="] - HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+2023-05-17 00:51:18,745 [task-1] INFO  [Dialect] [RRN="] - [STAN="] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2023-05-17 00:51:19,827 [task-1] INFO  [JtaPlatformInitiator] [RRN="] - [STAN="] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-05-17 00:51:19,837 [task-1] INFO  [LocalContainerEntityManagerFactoryBean] [RRN="] - [STAN="] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-05-17 00:51:20,278 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Spring Data repositories initialized! 
+2023-05-17 00:51:20,287 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Started FederatedServerApplication in 13.435 seconds (JVM running for 14.013) 
+2023-05-17 00:53:41,358 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Starting FederatedServerApplication on Hasnain-Rabbani with PID 8652 (E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server\target\classes started by hp in E:\Workspace\Eclipse\zeroinfinity\thesis\federated-server\federated-server) 
+2023-05-17 00:53:41,358 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - No active profile set, falling back to default profiles: default 
+2023-05-17 00:53:42,418 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2023-05-17 00:53:42,517 [main] INFO  [RepositoryConfigurationDelegate] [RRN="] - [STAN="] - Finished Spring Data repository scanning in 87ms. Found 3 JPA repository interfaces. 
+2023-05-17 00:53:42,881 [main] INFO  [EnableEncryptablePropertiesBeanFactoryPostProcessor] [RRN="] - [STAN="] - Post-processing PropertySource instances 
+2023-05-17 00:53:43,043 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+2023-05-17 00:53:43,043 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-17 00:53:43,043 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+2023-05-17 00:53:43,043 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-17 00:53:43,044 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper 
+2023-05-17 00:53:43,044 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+2023-05-17 00:53:43,044 [main] INFO  [EncryptablePropertySourceConverter] [RRN="] - [STAN="] - Converting PropertySource applicationConfig: [file:./application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+2023-05-17 00:53:43,356 [main] INFO  [DefaultLazyPropertyFilter] [RRN="] - [STAN="] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+2023-05-17 00:53:44,396 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat initialized with port(s): 9090 (http) 
+2023-05-17 00:53:44,408 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Initializing ProtocolHandler ["http-nio-9090"] 
+2023-05-17 00:53:44,409 [main] INFO  [StandardService] [RRN="] - [STAN="] - Starting service [Tomcat] 
+2023-05-17 00:53:44,409 [main] INFO  [StandardEngine] [RRN="] - [STAN="] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2023-05-17 00:53:44,546 [main] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring embedded WebApplicationContext 
+2023-05-17 00:53:44,547 [main] INFO  [ServletWebServerApplicationContext] [RRN="] - [STAN="] - Root WebApplicationContext: initialization completed in 3110 ms 
+2023-05-17 00:53:44,554 [main] INFO  [DefaultLazyPropertyResolver] [RRN="] - [STAN="] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+2023-05-17 00:53:44,559 [main] INFO  [DefaultLazyPropertyDetector] [RRN="] - [STAN="] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+2023-05-17 00:53:44,704 [main] DEBUG [HikariConfig] [RRN="] - [STAN="] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+2023-05-17 00:53:44,800 [main] INFO  [ThreadPoolTaskExecutor] [RRN="] - [STAN="] - Initializing ExecutorService 'applicationTaskExecutor' 
+2023-05-17 00:53:44,859 [task-1] INFO  [LogHelper] [RRN="] - [STAN="] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-05-17 00:53:44,911 [main] WARN  [JpaBaseConfiguration$JpaWebConfiguration] [RRN="] - [STAN="] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-05-17 00:53:44,995 [task-1] INFO  [Version] [RRN="] - [STAN="] - HHH000412: Hibernate ORM core version 5.4.17.Final 
+2023-05-17 00:53:45,291 [task-1] INFO  [Version] [RRN="] - [STAN="] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2023-05-17 00:53:45,603 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - HikariPool-1 - configuration: 
+2023-05-17 00:53:45,607 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - allowPoolSuspension.............false 
+2023-05-17 00:53:45,608 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - autoCommit......................true 
+2023-05-17 00:53:45,608 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - catalog.........................none 
+2023-05-17 00:53:45,609 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionInitSql...............none 
+2023-05-17 00:53:45,609 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTestQuery.............none 
+2023-05-17 00:53:45,609 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - connectionTimeout...............30000 
+2023-05-17 00:53:45,609 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSource......................none 
+2023-05-17 00:53:45,609 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceClassName.............none 
+2023-05-17 00:53:45,610 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceJNDI..................none 
+2023-05-17 00:53:45,610 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - dataSourceProperties............{password=<masked>} 
+2023-05-17 00:53:45,610 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - driverClassName................."com.mysql.cj.jdbc.Driver" 
+2023-05-17 00:53:45,610 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - exceptionOverrideClassName......none 
+2023-05-17 00:53:45,610 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckProperties...........{} 
+2023-05-17 00:53:45,610 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - healthCheckRegistry.............none 
+2023-05-17 00:53:45,611 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - idleTimeout.....................600000 
+2023-05-17 00:53:45,611 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - initializationFailTimeout.......1 
+2023-05-17 00:53:45,611 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - isolateInternalQueries..........false 
+2023-05-17 00:53:45,612 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - jdbcUrl.........................jdbc:mysql://localhost:3306/test 
+2023-05-17 00:53:45,612 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - leakDetectionThreshold..........0 
+2023-05-17 00:53:45,612 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maxLifetime.....................1800000 
+2023-05-17 00:53:45,612 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - maximumPoolSize.................10 
+2023-05-17 00:53:45,612 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricRegistry..................none 
+2023-05-17 00:53:45,612 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - metricsTrackerFactory...........none 
+2023-05-17 00:53:45,613 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - minimumIdle.....................10 
+2023-05-17 00:53:45,613 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - password........................<masked> 
+2023-05-17 00:53:45,613 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - poolName........................"HikariPool-1" 
+2023-05-17 00:53:45,613 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - readOnly........................false 
+2023-05-17 00:53:45,613 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - registerMbeans..................false 
+2023-05-17 00:53:45,613 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - scheduledExecutor...............none 
+2023-05-17 00:53:45,613 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - schema..........................none 
+2023-05-17 00:53:45,614 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - threadFactory...................internal 
+2023-05-17 00:53:45,614 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - transactionIsolation............default 
+2023-05-17 00:53:45,614 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - username........................"root" 
+2023-05-17 00:53:45,614 [task-1] DEBUG [HikariConfig] [RRN="] - [STAN="] - validationTimeout...............5000 
+2023-05-17 00:53:45,614 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Starting... 
+2023-05-17 00:53:45,778 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/v2/api-docs'], [] 
+2023-05-17 00:53:45,779 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/ui'], [] 
+2023-05-17 00:53:45,779 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2023-05-17 00:53:45,779 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/configuration/**'], [] 
+2023-05-17 00:53:45,779 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2023-05-17 00:53:45,779 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2023-05-17 00:53:45,836 [main] INFO  [PropertySourcedRequestMappingHandlerMapping] [RRN="] - [STAN="] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2023-05-17 00:53:46,011 [main] INFO  [DefaultSecurityFilterChain] [RRN="] - [STAN="] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67f63d26, org.springframework.security.web.context.SecurityContextPersistenceFilter@77429040, org.springframework.security.web.header.HeaderWriterFilter@144ab983, org.springframework.web.filter.CorsFilter@536b71b4, org.springframework.security.web.authentication.logout.LogoutFilter@47272cd3, com.zeroinfinity.federatedserver.config.JwtRequestFilter@1c8f6a90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38291795, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@413bef78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@789c3057, org.springframework.security.web.session.SessionManagementFilter@25f61c2c, org.springframework.security.web.access.ExceptionTranslationFilter@706ddbc8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f8d9767] 
+2023-05-17 00:53:46,353 [main] INFO  [Http11NioProtocol] [RRN="] - [STAN="] - Starting ProtocolHandler ["http-nio-9090"] 
+2023-05-17 00:53:46,388 [main] INFO  [TomcatWebServer] [RRN="] - [STAN="] - Tomcat started on port(s): 9090 (http) with context path '' 
+2023-05-17 00:53:46,390 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Context refreshed 
+2023-05-17 00:53:46,419 [task-1] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36e1062c 
+2023-05-17 00:53:46,421 [task-1] INFO  [HikariDataSource] [RRN="] - [STAN="] - HikariPool-1 - Start completed. 
+2023-05-17 00:53:46,456 [task-1] INFO  [Dialect] [RRN="] - [STAN="] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2023-05-17 00:53:46,476 [main] INFO  [DocumentationPluginsBootstrapper] [RRN="] - [STAN="] - Found 1 custom documentation plugin(s) 
+2023-05-17 00:53:46,553 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0) 
+2023-05-17 00:53:46,609 [main] INFO  [ApiListingReferenceScanner] [RRN="] - [STAN="] - Scanning for api listing references 
+2023-05-17 00:53:46,628 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f968543 
+2023-05-17 00:53:46,632 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2eab8f78 
+2023-05-17 00:53:46,637 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fcf6550 
+2023-05-17 00:53:46,647 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e847037 
+2023-05-17 00:53:46,654 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c4b2cd4 
+2023-05-17 00:53:46,668 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4acaca1a 
+2023-05-17 00:53:46,672 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11e759b7 
+2023-05-17 00:53:46,682 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c2875de 
+2023-05-17 00:53:46,687 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@165145bb 
+2023-05-17 00:53:46,687 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0) 
+2023-05-17 00:53:46,937 [main] INFO  [CachingOperationNameGenerator] [RRN="] - [STAN="] - Generating unique operation named: syncModelUsingGET_1 
+2023-05-17 00:53:46,953 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Triggering deferred initialization of Spring Data repositories… 
+2023-05-17 00:53:48,070 [task-1] INFO  [JtaPlatformInitiator] [RRN="] - [STAN="] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-05-17 00:53:48,087 [task-1] INFO  [LocalContainerEntityManagerFactoryBean] [RRN="] - [STAN="] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-05-17 00:53:49,173 [main] INFO  [DeferredRepositoryInitializationListener] [RRN="] - [STAN="] - Spring Data repositories initialized! 
+2023-05-17 00:53:49,221 [main] INFO  [FederatedServerApplication] [RRN="] - [STAN="] - Started FederatedServerApplication in 8.384 seconds (JVM running for 8.884) 
+2023-05-17 00:54:10,550 [http-nio-9090-exec-1] INFO  [[/]] [RRN="] - [STAN="] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-05-17 00:54:10,552 [http-nio-9090-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Initializing Servlet 'dispatcherServlet' 
+2023-05-17 00:54:10,561 [http-nio-9090-exec-1] INFO  [DispatcherServlet] [RRN="] - [STAN="] - Completed initialization in 9 ms 
+2023-05-17 00:54:16,554 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:54:16,554 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:54:46,558 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:54:46,558 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:55:16,573 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:55:16,573 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:55:46,574 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:55:46,574 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:56:16,576 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:56:16,576 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:56:46,580 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:56:46,580 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:57:16,594 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:57:16,594 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:57:46,608 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:57:46,608 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:58:16,622 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:58:16,622 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:58:46,634 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:58:46,634 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:59:16,642 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:59:16,642 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 00:59:46,654 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 00:59:46,654 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:00:16,659 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:00:16,660 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:00:46,676 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:00:46,676 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:01:16,684 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:01:16,684 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:01:46,699 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:01:46,699 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:02:16,702 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:02:16,702 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:02:46,710 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:02:46,710 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:03:16,726 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:03:16,726 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:03:46,735 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:03:46,735 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:04:16,735 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:04:16,735 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:04:46,743 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:04:46,743 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:05:16,752 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:05:16,752 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:05:46,760 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:05:46,760 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:06:16,769 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:06:16,769 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:06:46,778 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:06:46,778 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:07:16,782 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:07:16,782 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:07:46,792 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:07:46,792 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:08:16,803 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:08:16,803 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:08:46,806 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:08:46,806 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:09:16,810 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:09:16,810 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:09:46,811 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:09:46,811 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:10:16,820 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:10:16,820 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:10:46,835 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:10:46,835 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:11:16,837 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:11:16,837 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:11:46,840 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:11:46,840 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:12:16,848 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:12:16,848 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:12:46,850 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:12:46,850 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:13:16,858 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:13:16,859 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:13:46,866 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:13:46,866 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:14:16,880 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:14:16,880 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:14:46,889 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:14:46,890 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:15:16,893 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:15:16,893 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:15:46,896 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:15:46,896 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:16:16,909 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:16:16,909 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:16:46,912 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:16:46,912 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:17:16,921 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:17:16,921 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:17:46,931 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:17:46,931 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:18:16,943 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:18:16,943 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:18:46,951 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:18:46,951 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:19:16,955 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:19:16,955 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:19:46,971 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:19:46,971 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:20:16,984 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:20:16,985 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:20:46,986 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:20:46,986 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:21:16,990 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:21:16,990 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:21:46,996 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:21:46,996 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:22:17,001 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:22:17,001 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:22:47,011 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:22:47,011 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:23:11,744 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@11e759b7: (connection has passed maxLifetime) 
+2023-05-17 01:23:11,753 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1403811 
+2023-05-17 01:23:12,157 [HikariPool-1 connection closer] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:23:14,756 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36e1062c: (connection has passed maxLifetime) 
+2023-05-17 01:23:14,756 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@407d322a 
+2023-05-17 01:23:17,013 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:23:17,013 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:23:17,448 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e847037: (connection has passed maxLifetime) 
+2023-05-17 01:23:17,448 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71f7f064 
+2023-05-17 01:23:18,903 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2c4b2cd4: (connection has passed maxLifetime) 
+2023-05-17 01:23:18,911 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2052cd65 
+2023-05-17 01:23:23,409 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f968543: (connection has passed maxLifetime) 
+2023-05-17 01:23:23,409 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21a766c5 
+2023-05-17 01:23:34,283 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4c2875de: (connection has passed maxLifetime) 
+2023-05-17 01:23:34,283 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cd42797 
+2023-05-17 01:23:35,379 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2eab8f78: (connection has passed maxLifetime) 
+2023-05-17 01:23:35,379 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dd99ec0 
+2023-05-17 01:23:38,041 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fcf6550: (connection has passed maxLifetime) 
+2023-05-17 01:23:38,041 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55908809 
+2023-05-17 01:23:38,556 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@165145bb: (connection has passed maxLifetime) 
+2023-05-17 01:23:38,556 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68b7f347 
+2023-05-17 01:23:45,010 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4acaca1a: (connection has passed maxLifetime) 
+2023-05-17 01:23:45,010 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f270f9f 
+2023-05-17 01:23:47,026 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:23:47,026 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:24:17,035 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:24:17,035 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:24:47,051 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:24:47,051 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:25:17,059 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:25:17,059 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:25:47,074 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:25:47,074 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:26:17,077 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:26:17,077 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:26:47,091 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:26:47,091 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:27:17,108 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:27:17,108 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:27:47,114 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:27:47,114 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:28:17,128 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:28:17,128 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:28:47,129 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:28:47,129 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:29:17,142 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:29:17,142 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:29:47,155 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:29:47,155 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:30:17,166 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:30:17,166 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:30:47,167 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:30:47,167 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:31:17,180 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:31:17,180 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:31:47,184 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:31:47,184 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:32:17,186 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:32:17,186 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:32:47,197 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:32:47,197 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:33:17,205 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:33:17,205 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:33:47,206 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:33:47,206 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:34:17,209 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:34:17,209 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:34:47,221 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:34:47,221 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:35:17,232 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:35:17,232 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:35:47,239 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:35:47,239 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:36:17,244 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:36:17,244 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:36:47,247 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:36:47,247 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:37:17,253 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:37:17,253 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:37:47,259 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:37:47,259 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:38:17,262 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:38:17,262 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:38:47,273 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:38:47,273 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:39:17,289 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:39:17,289 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:39:47,303 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:39:47,303 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:40:17,315 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:40:17,315 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:40:47,327 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:40:47,327 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:41:17,335 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:41:17,335 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:41:47,338 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:41:47,338 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:42:17,341 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:42:17,341 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:42:47,358 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:42:47,358 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:43:17,374 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:43:17,374 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:43:47,390 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:43:47,390 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:44:17,404 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:44:17,404 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:44:47,411 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:44:47,411 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:45:17,414 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:45:17,414 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:45:47,416 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:45:47,416 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:46:17,421 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:46:17,421 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:46:47,437 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:46:47,437 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:47:17,446 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:47:17,446 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:47:47,451 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:47:47,451 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:48:17,452 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:48:17,452 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:48:47,468 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:48:47,469 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:49:17,484 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:49:17,484 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:49:47,492 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:49:47,492 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:50:17,507 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:50:17,507 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:50:47,518 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:50:47,518 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:51:17,523 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:51:17,523 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:51:47,525 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:51:47,525 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:52:17,527 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:52:17,527 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:52:36,504 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@407d322a: (connection has passed maxLifetime) 
+2023-05-17 01:52:36,504 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f035c55 
+2023-05-17 01:52:43,157 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2052cd65: (connection has passed maxLifetime) 
+2023-05-17 01:52:43,157 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fec9e94 
+2023-05-17 01:52:47,543 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:52:47,543 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:53:03,824 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2cd42797: (connection has passed maxLifetime) 
+2023-05-17 01:53:03,824 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a6ddd76 
+2023-05-17 01:53:08,565 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@68b7f347: (connection has passed maxLifetime) 
+2023-05-17 01:53:08,565 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b50d74d 
+2023-05-17 01:53:09,603 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1403811: (connection has passed maxLifetime) 
+2023-05-17 01:53:09,603 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a51bbd2 
+2023-05-17 01:53:10,119 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@71f7f064: (connection has passed maxLifetime) 
+2023-05-17 01:53:10,119 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b7f2802 
+2023-05-17 01:53:11,916 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@21a766c5: (connection has passed maxLifetime) 
+2023-05-17 01:53:11,916 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58289cca 
+2023-05-17 01:53:13,958 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55908809: (connection has passed maxLifetime) 
+2023-05-17 01:53:13,958 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f31f7cc 
+2023-05-17 01:53:17,554 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:53:17,554 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 01:53:21,312 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2f270f9f: (connection has passed maxLifetime) 
+2023-05-17 01:53:21,312 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c9c48df 
+2023-05-17 01:53:26,557 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2dd99ec0: (connection has passed maxLifetime) 
+2023-05-17 01:53:26,557 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c85935b 
+2023-05-17 01:53:47,567 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 01:53:47,567 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:13:04,088 [HikariPool-1 housekeeper] WARN  [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m16s537ms555µs500ns). 
+2023-05-17 02:13:04,088 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:13:04,088 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:13:34,093 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:13:34,093 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:14:04,106 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:14:04,106 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:14:34,119 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:14:34,119 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:15:04,123 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:15:04,123 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:15:34,127 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:15:34,127 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:16:04,128 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:16:04,128 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:16:34,134 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:16:34,134 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:17:04,137 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:17:04,137 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:17:34,148 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:17:34,148 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:18:04,149 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:18:04,149 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:18:34,150 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:18:34,150 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:19:04,154 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:19:04,154 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:19:34,160 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:19:34,160 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:20:04,164 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:20:04,164 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:20:34,169 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:20:34,170 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:21:04,181 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:21:04,181 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:21:34,189 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:21:34,189 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:22:04,204 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:22:04,204 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:22:06,954 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fec9e94: (connection has passed maxLifetime) 
+2023-05-17 02:22:06,954 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c3b048e 
+2023-05-17 02:22:29,729 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b7f2802: (connection has passed maxLifetime) 
+2023-05-17 02:22:29,729 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69dcf60b 
+2023-05-17 02:22:33,084 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2f035c55: (connection has passed maxLifetime) 
+2023-05-17 02:22:33,084 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28e1fc30 
+2023-05-17 02:22:34,215 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:22:34,215 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:22:36,720 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a51bbd2: (connection has passed maxLifetime) 
+2023-05-17 02:22:36,720 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1903d239 
+2023-05-17 02:22:39,254 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2c9c48df: (connection has passed maxLifetime) 
+2023-05-17 02:22:39,254 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48ce037f 
+2023-05-17 02:22:39,389 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b50d74d: (connection has passed maxLifetime) 
+2023-05-17 02:22:39,389 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50b6e843 
+2023-05-17 02:22:40,085 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@58289cca: (connection has passed maxLifetime) 
+2023-05-17 02:22:40,085 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c803f10 
+2023-05-17 02:22:48,356 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2f31f7cc: (connection has passed maxLifetime) 
+2023-05-17 02:22:48,356 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c12180b 
+2023-05-17 02:23:00,973 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@a6ddd76: (connection has passed maxLifetime) 
+2023-05-17 02:23:00,973 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@451470e3 
+2023-05-17 02:23:04,229 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:23:04,229 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:23:16,779 [HikariPool-1 connection closer] DEBUG [PoolBase] [RRN="] - [STAN="] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c85935b: (connection has passed maxLifetime) 
+2023-05-17 02:23:16,779 [HikariPool-1 connection adder] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78f9c981 
+2023-05-17 02:23:34,240 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:23:34,240 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:24:04,255 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:24:04,255 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:24:34,264 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:24:34,264 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:25:04,278 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:25:04,279 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2023-05-17 02:25:34,279 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2023-05-17 02:25:34,279 [HikariPool-1 housekeeper] DEBUG [HikariPool] [RRN="] - [STAN="] - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 

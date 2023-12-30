@@ -1,0 +1,59 @@
+logging:
+  config: file:logback.xml
+
+server:
+  port: 9093
+  username: admin  
+  
+service:
+  endpoint: /zeroinfinity/v1/
+    
+app:
+  api: 
+    logging: 
+      enable: true
+      url-patterns: /zeroinfinity/*
+      
+allowedIps: "*"
+
+secret: zeroinfinity
+
+jwt: 
+  user: client3
+  password: '$2b$10$3q4./ZzDlMo1exqAXZumyOQubhS7rGOOjGvVfL1ftwV6TTlXKqVvi' #admin@123
+  secretkey: mysecretk3y #secret key for signing jwt
+  token: #JWT token validity time in secs
+    validity: 86400  #86400secs equals to 1day
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test3
+    username: root
+    password: 
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+
+client:
+  username: admin
+  auth:
+    urls: http://localhost:9090/authenticate
+  version:
+    urls: http://localhost:9090/zeroinfinity/v1/model/update    
+  sync:
+    urls: http://localhost:9090/zeroinfinity/v1/model/sync    
+      
+swagger:
+  enabled: true
+  
+api:
+  #Swagger
+  title: Federated Authentication Client
+  version: 1.0.0
+  description: Federated Authentication Client
+  contact:
+    email: shaikhhasnainrabbani@gmail.com
+    name: Hasnain Rabbani
+    link: https://github.com/HasnainRabbani
